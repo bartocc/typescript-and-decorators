@@ -1,4 +1,4 @@
 import Ember from 'ember';
 
-export default Ember.Component.extend({
-});
+export default class FooBarComponent extends Ember.Component {
+}
