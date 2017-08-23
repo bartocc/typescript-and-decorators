@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "experimentalDecorators": true,
+    "noEmit": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "module": "es6",
+    "paths": {
+      "foo/tests/*": ["tests/*"],
+      "foo/*": [
+        "app/*"
+      ]
+    }
+  },
+  "exclude": [
+    "tmp",
+    "dist",
+    "node_modules",
+    "bower_components"
+  ]
+}
